@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -17,21 +17,42 @@
     <title>Slider</title>
   </head>
   <body>
-    <section>
+    <section class="section">
       <div class="slider">
-        <div class="slide slide-1 active"><h2>Sample slide 1</h2></div>
-        <div class="slide slide-2"><h2>Sample slide 2</h2></div>
-        <div class="slide slide-3"><h2>Sample slide 3</h2></div>
-        <div class="slide slide-4"><h2>Sample slide 4</h2></div>
+        <div class="slide slide-1 active">
+          <h2 class="slider-heading">Sample slide 1</h2>
+          <p class="slider-sub-heading">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+        <div class="slide slide-2">
+          <h2 class="slider-heading">Sample slide 2</h2>
+          <p class="slider-sub-heading">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+        <div class="slide slide-3">
+          <h2 class="slider-heading">Sample slide 3</h2>
+          <p class="slider-sub-heading">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+        <div class="slide slide-4">
+          <h2 class="slider-heading">Sample slide 4</h2>
+          <p class="slider-sub-heading">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
       </div>
-      <div class="scroll-btns">
-        <div class="scroll-btn scroll-btn-l">
+      <div class="button">
+        <div class="btn btn-left">
           <ion-icon name="chevron-back-outline"></ion-icon>
         </div>
-        <div class="scroll-btn scroll-btn-r">
+        <div class="btn btn-right">
           <ion-icon name="chevron-forward-outline"></ion-icon>
         </div>
       </div>
+      <div class="dots"></div>
     </section>
 
     <script
